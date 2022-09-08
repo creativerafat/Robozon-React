@@ -20,7 +20,8 @@ const Home = (props) => {
         image_src1="/playground_assets/robozon-logo-1500h.png"
         image_alt="ROBOZON"
         image_alt1="ROBOZON"
-        PrimaryBtn="/"
+        PrimaryBtn="Download"
+        image_src="/playground_assets/robozon-logo-1500h.png"
       ></Navbar>
       <main className="home-main">
         <div className="home-hero section-container">
