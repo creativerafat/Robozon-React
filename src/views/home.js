@@ -16,7 +16,12 @@ const Home = (props) => {
         <title>Robozon</title>
         <meta property="og:title" content="Robozon" />
       </Helmet>
-      <Navbar></Navbar>
+      <Navbar
+        image_src1="/playground_assets/robozon-logo-1500h.png"
+        image_alt="ROBOZON"
+        image_alt1="ROBOZON"
+        PrimaryBtn="/"
+      ></Navbar>
       <main className="home-main">
         <div className="home-hero section-container">
           <div className="home-max-width max-content-container">
