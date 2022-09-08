@@ -26,7 +26,7 @@ const Home = (props) => {
         <div className="home-hero section-container">
           <div className="home-max-width max-content-container">
             <div className="home-content-container">
-              <h1 className="home-text heading1">
+              <h1 className="home-text">
                 Easy, Intuitive Automatic Relay Loadboard
                 <span
                   dangerouslySetInnerHTML={{

@@ -35,7 +35,14 @@
 }
 .home-text {
   width: 90%;
+  font-size: 52px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 1.2;
   margin-bottom: 42px;
+  text-transform: none;
+  text-decoration: none;
 }
 .home-text01 {
   width: 70%;
@@ -229,9 +236,6 @@
   .home-content-container {
     margin-bottom: 42px;
     padding-right: 0px;
-  }
-  .home-text {
-    width: 100%;
   }
   .home-image {
     max-width: 100%;
