@@ -1,0 +1,112 @@
+.footer-footer {
+  width: 100%;
+  align-items: stretch;
+  border-color: rgba(33, 33, 33, 0.1);
+  border-width: 1px;
+  padding-bottom: var(--dl-space-space-threeunits);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.footer-max-width {
+  align-self: stretch;
+  justify-content: space-between;
+}
+.footer-container {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-image {
+  width: 162px;
+  height: 56px;
+  align-self: center;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.footer-ul {
+  width: 50%;
+  padding-bottom: var(--dl-space-space-halfunit);
+  list-style-type: disc;
+  list-style-image: none;
+  list-style-position: outside;
+}
+.footer-li {
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.footer-li1 {
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.footer-text1 {
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.footer-li2 {
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.footer-social-media {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer-text3 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.footer-container1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.footer-icon {
+  width: 24px;
+  height: 24px;
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-twounits);
+}
+.footer-icon:hover {
+  fill: var(--dl-color-backgrounds-primary);
+  cursor: pointer;
+}
+.footer-icon04 {
+  width: 24px;
+  height: 24px;
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-twounits);
+}
+.footer-icon04:hover {
+  fill: var(--dl-color-backgrounds-primary);
+  cursor: pointer;
+}
+.footer-icon08 {
+  width: 24px;
+  height: 24px;
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-twounits);
+}
+.footer-icon08:hover {
+  fill: var(--dl-color-backgrounds-primary);
+  cursor: pointer;
+}
+.footer-icon10 {
+  width: 24px;
+  height: 24px;
+  transition: 0.3s;
+}
+.footer-icon10:hover {
+  fill: var(--dl-color-backgrounds-primary);
+  cursor: pointer;
+}
+@media(max-width: 991px) {
+  .footer-max-width {
+    flex-direction: column-reverse;
+  }
+  .footer-container {
+    width: 100%;
+  }
+}
