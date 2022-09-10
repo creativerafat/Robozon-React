@@ -14,12 +14,7 @@ const NavigationLinks = (props) => {
       <span href="#about" className="navigation-links-text navbar-link">
         {props.text1}
       </span>
-      <a
-        href="#download"
-        target="_blank"
-        rel="noreferrer noopener"
-        className="navigation-links-link navbar-link"
-      >
+      <a href="#download" className="navigation-links-link navbar-link">
         {props.text2}
       </a>
       <span href="#tutorials" className="navigation-links-text1 navbar-link">
