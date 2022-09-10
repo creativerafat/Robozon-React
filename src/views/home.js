@@ -24,7 +24,7 @@ const Home = (props) => {
           <Link to="/">
             <img
               alt="ROBOZON"
-              src="a16b5eb9-e514-46f8-940f-b77b7b7063b0"
+              src="/playground_assets/robozon-logo-1500h.png"
               loading="eager"
               className="home-image"
             />
