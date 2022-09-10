@@ -37,7 +37,7 @@ const Home = (props) => {
               <a href="#about" className="home-link navbar-link">
                 About
               </a>
-              <a href="#download" className="home-link1 navbar-link">
+              <a href="#downloads" className="home-link1 navbar-link">
                 Download
               </a>
               <a href="#tutorials" className="home-link2 navbar-link">
