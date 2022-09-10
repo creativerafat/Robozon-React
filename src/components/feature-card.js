@@ -12,7 +12,7 @@ const FeatureCard = (props) => {
         src={props.image_src}
         className="feature-card-image"
       />
-      <h4 className="feature-card-text heading4">{props.heading}</h4>
+      <h4 className="feature-card-text">{props.heading}</h4>
     </div>
   )
 }

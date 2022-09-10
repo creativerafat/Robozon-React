@@ -1,0 +1,113 @@
+.terms-conditions-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.terms-conditions-banner {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.terms-conditions-text {
+  font-size: 3rem;
+  text-align: center;
+}
+.terms-conditions-text01 {
+  max-width: var(--dl-size-size-maxwidth);
+  margin-top: var(--dl-space-space-twounits);
+  text-align: left;
+  line-height: 2;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.terms-conditions-text03 {
+  font-weight: 700;
+}
+.terms-conditions-text05 {
+  font-weight: 700;
+}
+.terms-conditions-text07 {
+  font-weight: 700;
+}
+.terms-conditions-text09 {
+  font-weight: 700;
+}
+.terms-conditions-text10 {
+  font-weight: 700;
+}
+.terms-conditions-text11 {
+  font-weight: 700;
+}
+.terms-conditions-text12 {
+  font-weight: 700;
+}
+.terms-conditions-text14 {
+  font-weight: 700;
+}
+.terms-conditions-text15 {
+  font-weight: 700;
+}
+.terms-conditions-text16 {
+  font-weight: 700;
+}
+.terms-conditions-text17 {
+  font-weight: 700;
+}
+.terms-conditions-text18 {
+  font-weight: 700;
+}
+.terms-conditions-text20 {
+  font-weight: 700;
+}
+.terms-conditions-text21 {
+  font-weight: 700;
+}
+.terms-conditions-text22 {
+  font-weight: 700;
+}
+.terms-conditions-text23 {
+  font-weight: 700;
+}
+.terms-conditions-text24 {
+  font-weight: 700;
+}
+.terms-conditions-text25 {
+  font-weight: 700;
+}
+.terms-conditions-text27 {
+  font-weight: 700;
+}
+.terms-conditions-text29 {
+  font-weight: 700;
+}
+.terms-conditions-text30 {
+  font-weight: 700;
+}
+@media(max-width: 991px) {
+  .terms-conditions-text01 {
+    max-width: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .terms-conditions-banner {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .terms-conditions-text01 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .terms-conditions-banner {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+}

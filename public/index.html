@@ -48,83 +48,39 @@
       color: #63667066;
       }
     </style>
+
+    <!--This is the head section-->
+    <!-- <script type="text/javascript"> ... </script> -->
+    <!-- Your body code here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+          $("#menu-bar").click(function(){
+              $("#mobilemenu").css('display','block');
+          });
+          $("#close-btn").click(function(){
+              $("#mobilemenu").css('display','none');
+          });
+
+          });
+    </script>
   </head>
   <body>
     <div id="app"></div>
-    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+    <!--This is the head section-->
+    <!-- <script type="text/javascript"> ... </script> -->
+    <!-- Your body code here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
-      window.onload = () => {
-        const runAllScripts = () => {
-          initializeAllSliders();
-        };
-
-        const listenForUrlChanges = () => {
-          let url = location.href;
-          document.body.addEventListener(
-            "click",
-            () => {
-              requestAnimationFrame(() => {
-                if (url !== location.href) {
-                  runAllScripts();
-                  url = location.href;
-                }
-              });
-            },
-            true
-          );
-        };
-
-        const initializeAllSliders = () => {
-          const allSliders = document.querySelectorAll('[data-type="slider"]');
-          allSliders.forEach((carrousel) => {
-            initializeSlider(carrousel);
+      $(document).ready(function(){
+          $("#menu-bar").click(function(){
+              $("#mobilemenu").css('display','block');
           });
-        };
-
-        const initializeSlider = (carrousel) => {
-          let currentSlide = 0;
-
-          const slides = carrousel.querySelectorAll('[data-type="slide"]');
-          const nextSlideBtns = carrousel.querySelectorAll(
-            '[data-action="nextSlide"]'
-          );
-          const previousSlideBtns = carrousel.querySelectorAll(
-            '[data-action="previousSlide"]'
-          );
-
-          const changeSlide = (slideIndex, action) => {
-            currentSlide = slideIndex;
-
-            switch (action) {
-              case "next":
-                slideIndex === slides.length - 1
-                  ? (currentSlide = 0)
-                  : currentSlide++;
-                break;
-              case "previous":
-                slideIndex === 0
-                  ? (currentSlide = slides.length - 1)
-                  : currentSlide--;
-            }
-
-            carrousel.style.transform = `translateX(${-100 * currentSlide}%)`;
-          };
-
-          previousSlideBtns.forEach((btn) => {
-            btn.addEventListener("click", () =>
-              changeSlide(currentSlide, "previous")
-            );
+          $("#close-btn").click(function(){
+              $("#mobilemenu").css('display','none');
           });
 
-          nextSlideBtns.forEach((btn) => {
-            btn.addEventListener("click", () =>
-              changeSlide(currentSlide, "next")
-            );
           });
-        };
-
-        runAllScripts();
-      };
     </script>
   </body>
 </html>

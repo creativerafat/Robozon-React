@@ -9,13 +9,14 @@
 .navbar-image {
   width: 135px;
   height: 47px;
+  text-decoration: none;
 }
 .navbar-nav {
   display: flex;
 }
 .navbar-icon {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
 }
 .navbar-nav1 {
   display: flex;
@@ -100,6 +101,9 @@
 .navbar-icon14:hover {
   fill: var(--dl-color-backgrounds-primary);
   cursor: pointer;
+}
+.navbar-primary-btn1 {
+  text-decoration: none;
 }
 @media(max-width: 767px) {
   .navbar-nav {

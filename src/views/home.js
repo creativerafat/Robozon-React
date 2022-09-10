@@ -14,20 +14,38 @@ const Home = (props) => {
     <div className="home-container">
       <Helmet>
         <title>Robozon</title>
+        <meta name="description" content="Robozon" />
         <meta property="og:title" content="Robozon" />
+        <meta property="og:description" content="Robozon" />
       </Helmet>
       <Navbar
-        image_src1="/playground_assets/robozon-logo-1500h.png"
         image_alt="ROBOZON"
-        image_alt1="ROBOZON"
-        PrimaryBtn="Download"
         image_src="/playground_assets/robozon-logo-1500h.png"
+        PrimaryBtn="Download"
+        image_alt1="ROBOZON"
+        image_src1="/playground_assets/robozon-logo-1500h.png"
       ></Navbar>
+      <div id="mobilemenu" className="home-menu-mobile">
+        <button id="close-btn" type="button" className="button home-button">
+          X
+        </button>
+        <ul className="list home-ul">
+          <li className="list-item home-li">
+            <span className="home-text">Home</span>
+          </li>
+          <li className="list-item home-li1">
+            <span className="home-text01">Tutorials</span>
+          </li>
+          <li className="list-item home-li2">
+            <span className="home-text02">Download</span>
+          </li>
+        </ul>
+      </div>
       <main className="home-main">
         <div className="home-hero section-container">
           <div className="home-max-width max-content-container">
             <div className="home-content-container">
-              <h1 className="home-text">
+              <h1 className="home-text03">
                 Easy, Intuitive Automatic Relay Loadboard
                 <span
                   dangerouslySetInnerHTML={{
@@ -35,7 +53,7 @@ const Home = (props) => {
                   }}
                 />
               </h1>
-              <span className="home-text01 content">
+              <span className="home-text04 content">
                 Refresher Instantly Updates to Give YOU the Best Advantage in
                 the Industry
               </span>
@@ -51,7 +69,8 @@ const Home = (props) => {
         </div>
         <div className="home-section-one section-container">
           <div className="home-max-width1 max-content-container">
-            <h1 className="home-text02">
+            <h1 className="home-text05">FULLY INDEPENDENT FEAUTURE</h1>
+            <h1 className="home-text06">
               Jump Ahead of Other Truckers to Instantly Find and Book
               Amazon&apos;s BEST Loads - Soar Income with the Most Profitable
               Routes
@@ -74,7 +93,7 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div className="section-container">
+        <div id="about" className="section-container">
           <div className="home-max-width2 max-content-container">
             <div className="home-image-container1">
               <img
@@ -84,11 +103,11 @@ const Home = (props) => {
               />
             </div>
             <div className="home-content-container1">
-              <h1 className="home-text03">
+              <h1 className="home-text07">
                 Its built-in randomizer feature adjusts Flash Relay refresh rate
                 to mirror a human dispatcher.
               </h1>
-              <span className="home-text04">
+              <span className="home-text08">
                 Features
                 <span
                   dangerouslySetInnerHTML={{
@@ -96,7 +115,7 @@ const Home = (props) => {
                   }}
                 />
               </span>
-              <span className="home-text05">
+              <span className="home-text09">
                 <span> New Booked Load Alarm &amp; Highlighted</span>
                 <br></br>
                 <span>
@@ -155,17 +174,17 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div className="section-container">
+        <div id="tutorials" className="section-container">
           <div className="home-max-width3 max-content-container">
             <div className="home-heading-container">
-              <h1 className="home-text22">Tutorials</h1>
+              <h1 className="home-text26">Tutorials</h1>
             </div>
             <iframe
               src="https://www.youtube.com/embed/LNC9cv-LYpA?controls=0"
               className="home-iframe"
             ></iframe>
             <div className="home-features">
-              <h1 className="home-text23">Robozon Feature Explanation</h1>
+              <h1 className="home-text27">Robozon Feature Explanation</h1>
               <div className="home-container1">
                 <FeatureCard3
                   title="New Booked Load Alarm &amp; Highlighted "
@@ -205,7 +224,7 @@ const Home = (props) => {
                   rootClassName="feature-card3-root-class-name7"
                 ></FeatureCard3>
                 <FeatureCard3
-                  title="8)\tMin Stem Time"
+                  title="Min Stem Time"
                   description="Robozon will not book a load if it departs time earlier than Min Stem time, to make sure driver has enough time to arrive to destination."
                   rootClassName="feature-card3-root-class-name4"
                 ></FeatureCard3>
@@ -213,19 +232,38 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div className="home-section-six section-container">
+        <div id="downloads" className="home-section-six section-container">
           <div className="home-max-width4 max-content-container">
             <div className="home-content-container2">
-              <h1 className="home-text24">
+              <h1 className="home-text28">
                 <span>Download Now</span>
                 <br></br>
               </h1>
-              <span className="home-text27 content-Light">
-                Go to App Store, install Feedbox and start changing your reading
-                habbits today!
+              <span className="home-text31">
+                <span className="content-Light">
+                  Go to App Store, install our
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span>
+                  extension
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span className="content-Light">and enjoy!</span>
               </span>
               <div className="home-input-container">
-                <button className="home-button button-primary button">
+                <button
+                  href="https://chrome.google.com/webstore/category/extensions"
+                  type="button"
+                  className="home-button1 button-primary button"
+                >
                   <span>
                     <span>Download Now</span>
                     <br></br>
@@ -236,7 +274,7 @@ const Home = (props) => {
             <div className="home-image-container2">
               <img
                 alt="image"
-                src="/playground_assets/screenshot_1-200h.png"
+                src="/playground_assets/screenshot_1-1200w.png"
                 className="home-image2"
               />
             </div>

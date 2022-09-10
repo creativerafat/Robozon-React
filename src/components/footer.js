@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import './footer.css'
 
@@ -7,24 +8,32 @@ const Footer = (props) => {
     <footer className="footer-footer section-container">
       <div className="footer-max-width max-content-container">
         <div className="footer-container">
-          <img
-            alt="image"
-            src="/playground_assets/robozon-logo-200h.png"
-            className="footer-image"
-          />
+          <Link to="/" className="footer-navlink">
+            <img
+              alt="image"
+              src="/playground_assets/robozon-logo-200h.png"
+              className="footer-image"
+            />
+          </Link>
           <ul className="footer-ul list">
             <li className="footer-li list-item">
-              <span>Privacy Policy</span>
+              <Link to="/privacy-policy" className="footer-navlink1">
+                Privacy Policy
+              </Link>
             </li>
             <li className="footer-li1 list-item">
-              <span className="footer-text1">Terms and conditions</span>
+              <Link to="/terms-conditions" className="footer-navlink2">
+                Terms and conditions
+              </Link>
             </li>
-            <li className="footer-li2 list-item">
-              <span>Cookie Policy</span>
-            </li>
+            <Link to="/cookie-policy">
+              <li className="footer-li2 list-item">
+                <span>Cookie Policy</span>
+              </li>
+            </Link>
           </ul>
           <div className="footer-social-media">
-            <span className="footer-text3">Follow us</span>
+            <span className="footer-text1">Follow us</span>
             <div className="footer-container1">
               <svg viewBox="0 0 1024 1024" className="footer-icon">
                 <path d="M384 384h177.106v90.782h2.532c24.64-44.194 84.958-90.782 174.842-90.782 186.946 0 221.52 116.376 221.52 267.734v308.266h-184.61v-273.278c0-65.184-1.334-149.026-96.028-149.026-96.148 0-110.82 70.986-110.82 144.292v278.012h-184.542v-576z"></path>

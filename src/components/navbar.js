@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -9,16 +10,19 @@ const Navbar = (props) => {
   return (
     <div className="navbar-navbar-container">
       <header data-role="Header" className="navigation-container">
-        <img
-          alt={props.image_alt}
-          src={props.image_src}
-          className="navbar-image"
-        />
+        <Link to="/">
+          <img
+            alt={props.image_alt}
+            src={props.image_src}
+            href="/"
+            className="navbar-image"
+          />
+        </Link>
         <div className="navbar-nav">
           <NavigationLinks rootClassName="navigation-links-root-class-name10"></NavigationLinks>
         </div>
         <div data-type="BurgerMenu" className="navigation-burger-menu">
-          <svg viewBox="0 0 1024 1024" className="navbar-icon">
+          <svg id="menu-bar" viewBox="0 0 1024 1024" className="navbar-icon">
             <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
           </svg>
         </div>
@@ -63,9 +67,14 @@ const Navbar = (props) => {
             </div>
           </div>
         </div>
-        <button className="button-primary button navbar-primary-btn1">
+        <a
+          href="https://chrome.google.com/webstore/category/extensions"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="navbar-primary-btn1 button-primary button"
+        >
           {props.PrimaryBtn}
-        </button>
+        </a>
       </header>
     </div>
   )
@@ -77,8 +86,8 @@ Navbar.defaultProps = {
   image_alt: 'logo',
   image_alt1: 'image',
   text: 'Follow us',
-  PrimaryBtn: 'Get started',
-  PrimaryBtn1: 'Get started',
+  PrimaryBtn: 'Downlaod',
+  PrimaryBtn1: 'Downlaod',
 }
 
 Navbar.propTypes = {
