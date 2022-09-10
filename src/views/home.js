@@ -25,27 +25,11 @@ const Home = (props) => {
         image_alt1="ROBOZON"
         image_src1="/playground_assets/robozon-logo-1500h.png"
       ></Navbar>
-      <div id="mobilemenu" className="home-menu-mobile">
-        <button id="close-btn" type="button" className="button home-button">
-          X
-        </button>
-        <ul className="list home-ul">
-          <li className="list-item home-li">
-            <span className="home-text">Home</span>
-          </li>
-          <li className="list-item home-li1">
-            <span className="home-text01">Tutorials</span>
-          </li>
-          <li className="list-item home-li2">
-            <span className="home-text02">Download</span>
-          </li>
-        </ul>
-      </div>
       <main className="home-main">
         <div className="home-hero section-container">
           <div className="home-max-width max-content-container">
             <div className="home-content-container">
-              <h1 className="home-text03">
+              <h1 className="home-text">
                 Easy, Intuitive Automatic Relay Loadboard
                 <span
                   dangerouslySetInnerHTML={{
@@ -53,7 +37,7 @@ const Home = (props) => {
                   }}
                 />
               </h1>
-              <span className="home-text04 content">
+              <span className="home-text01 content">
                 Refresher Instantly Updates to Give YOU the Best Advantage in
                 the Industry
               </span>
@@ -69,8 +53,8 @@ const Home = (props) => {
         </div>
         <div className="home-section-one section-container">
           <div className="home-max-width1 max-content-container">
-            <h1 className="home-text05">FULLY INDEPENDENT FEAUTURE</h1>
-            <h1 className="home-text06">
+            <h1 className="home-text02">FULLY INDEPENDENT FEAUTURE</h1>
+            <h1 className="home-text03">
               Jump Ahead of Other Truckers to Instantly Find and Book
               Amazon&apos;s BEST Loads - Soar Income with the Most Profitable
               Routes
@@ -103,11 +87,11 @@ const Home = (props) => {
               />
             </div>
             <div className="home-content-container1">
-              <h1 className="home-text07">
+              <h1 className="home-text04">
                 Its built-in randomizer feature adjusts Flash Relay refresh rate
                 to mirror a human dispatcher.
               </h1>
-              <span className="home-text08">
+              <span className="home-text05">
                 Features
                 <span
                   dangerouslySetInnerHTML={{
@@ -115,7 +99,7 @@ const Home = (props) => {
                   }}
                 />
               </span>
-              <span className="home-text09">
+              <span className="home-text06">
                 <span> New Booked Load Alarm &amp; Highlighted</span>
                 <br></br>
                 <span>
@@ -177,14 +161,14 @@ const Home = (props) => {
         <div id="tutorials" className="section-container">
           <div className="home-max-width3 max-content-container">
             <div className="home-heading-container">
-              <h1 className="home-text26">Tutorials</h1>
+              <h1 className="home-text23">Tutorials</h1>
             </div>
             <iframe
               src="https://www.youtube.com/embed/LNC9cv-LYpA?controls=0"
               className="home-iframe"
             ></iframe>
             <div className="home-features">
-              <h1 className="home-text27">Robozon Feature Explanation</h1>
+              <h1 className="home-text24">Robozon Feature Explanation</h1>
               <div className="home-container1">
                 <FeatureCard3
                   title="New Booked Load Alarm &amp; Highlighted "
@@ -235,11 +219,11 @@ const Home = (props) => {
         <div id="downloads" className="home-section-six section-container">
           <div className="home-max-width4 max-content-container">
             <div className="home-content-container2">
-              <h1 className="home-text28">
+              <h1 className="home-text25">
                 <span>Download Now</span>
                 <br></br>
               </h1>
-              <span className="home-text31">
+              <span className="home-text28">
                 <span className="content-Light">
                   Go to App Store, install our
                   <span
@@ -262,7 +246,7 @@ const Home = (props) => {
                 <button
                   href="https://chrome.google.com/webstore/category/extensions"
                   type="button"
-                  className="home-button1 button-primary button"
+                  className="home-button button-primary button"
                 >
                   <span>
                     <span>Download Now</span>

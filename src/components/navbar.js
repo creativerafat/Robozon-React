@@ -75,6 +75,22 @@ const Navbar = (props) => {
         >
           {props.PrimaryBtn}
         </a>
+        <div id="mobilemenu" className="navbar-menu-mobile">
+          <button id="close-btn" type="button" className="button navbar-button">
+            {props.button}
+          </button>
+          <ul className="list navbar-ul">
+            <li className="list-item navbar-li">
+              <span className="navbar-text1">{props.text1}</span>
+            </li>
+            <li className="list-item navbar-li1">
+              <span className="navbar-text2">{props.text2}</span>
+            </li>
+            <li className="list-item navbar-li2">
+              <span className="navbar-text3">{props.text3}</span>
+            </li>
+          </ul>
+        </div>
       </header>
     </div>
   )
@@ -88,6 +104,10 @@ Navbar.defaultProps = {
   text: 'Follow us',
   PrimaryBtn: 'Downlaod',
   PrimaryBtn1: 'Downlaod',
+  button: 'X',
+  text1: 'Home',
+  text2: 'Tutorials',
+  text3: 'Download',
 }
 
 Navbar.propTypes = {
@@ -98,6 +118,10 @@ Navbar.propTypes = {
   text: PropTypes.string,
   PrimaryBtn: PropTypes.string,
   PrimaryBtn1: PropTypes.string,
+  button: PropTypes.string,
+  text1: PropTypes.string,
+  text2: PropTypes.string,
+  text3: PropTypes.string,
 }
 
 export default Navbar
