@@ -17,8 +17,8 @@ const TermsConditions = (props) => {
         <meta property="og:description" content="Robozon" />
       </Helmet>
       <Navbar
-        image_src1="/playground_assets/robozon-logo-1500h.png"
         image_src="/playground_assets/robozon-logo-1500h.png"
+        image_src1="/playground_assets/robozon-logo-1500h.png"
       ></Navbar>
       <div className="terms-conditions-banner">
         <h1 className="terms-conditions-text">Terms &amp; Conditions</h1>

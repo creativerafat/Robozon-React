@@ -118,6 +118,15 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.navbar-li {
+  text-decoration: none;
+}
+.navbar-li1 {
+  text-decoration: none;
+}
+.navbar-navlink3 {
+  text-decoration: none;
+}
 @media(max-width: 767px) {
   .navbar-nav {
     display: none;
@@ -171,7 +180,7 @@
     font-family: Poppins;
     line-height: 3;
   }
-  .navbar-text3 {
+  .navbar-navlink3 {
     font-style: normal;
     font-weight: 600;
   }

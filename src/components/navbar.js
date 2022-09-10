@@ -80,14 +80,20 @@ const Navbar = (props) => {
             {props.button}
           </button>
           <ul className="list navbar-ul">
-            <li className="list-item navbar-li">
-              <span className="navbar-text1">{props.text1}</span>
-            </li>
-            <li className="list-item navbar-li1">
-              <span className="navbar-text2">{props.text2}</span>
-            </li>
+            <Link to="/">
+              <li className="navbar-li list-item">
+                <span className="navbar-text1">{props.text1}</span>
+              </li>
+            </Link>
+            <Link to="/">
+              <li className="navbar-li1 list-item">
+                <span className="navbar-text2">{props.text2}</span>
+              </li>
+            </Link>
             <li className="list-item navbar-li2">
-              <span className="navbar-text3">{props.text3}</span>
+              <Link to="/" className="navbar-navlink3">
+                {props.text3}
+              </Link>
             </li>
           </ul>
         </div>
@@ -100,28 +106,28 @@ Navbar.defaultProps = {
   image_src: 'a16b5eb9-e514-46f8-940f-b77b7b7063b0',
   image_src1: 'https://play.teleporthq.io/static/svg/placeholders/no-image.svg',
   image_alt: 'logo',
+  button: 'X',
+  text2: 'Tutorials',
+  text1: 'Home',
   image_alt1: 'image',
   text: 'Follow us',
+  text3: 'Download',
   PrimaryBtn: 'Downlaod',
   PrimaryBtn1: 'Downlaod',
-  button: 'X',
-  text1: 'Home',
-  text2: 'Tutorials',
-  text3: 'Download',
 }
 
 Navbar.propTypes = {
   image_src: PropTypes.string,
   image_src1: PropTypes.string,
   image_alt: PropTypes.string,
+  button: PropTypes.string,
+  text2: PropTypes.string,
+  text1: PropTypes.string,
   image_alt1: PropTypes.string,
   text: PropTypes.string,
+  text3: PropTypes.string,
   PrimaryBtn: PropTypes.string,
   PrimaryBtn1: PropTypes.string,
-  button: PropTypes.string,
-  text1: PropTypes.string,
-  text2: PropTypes.string,
-  text3: PropTypes.string,
 }
 
 export default Navbar

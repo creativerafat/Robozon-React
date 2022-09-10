@@ -105,13 +105,19 @@ const Home = (props) => {
             </button>
             <ul className="list home-ul">
               <li className="list-item home-li">
-                <span className="home-text01">Home</span>
+                <Link to="/" className="home-navlink2">
+                  Home
+                </Link>
               </li>
               <li className="list-item home-li1">
-                <span className="home-text02">Tutorials</span>
+                <a href="#tutorials" className="home-link3">
+                  Tutorials
+                </a>
               </li>
               <li className="list-item home-li2">
-                <span className="home-text03">Download</span>
+                <a href="#downloads" className="home-link4">
+                  Download
+                </a>
               </li>
             </ul>
           </div>
@@ -121,7 +127,7 @@ const Home = (props) => {
         <div className="home-hero section-container">
           <div className="home-max-width1 max-content-container">
             <div className="home-content-container">
-              <h1 className="home-text04">
+              <h1 className="home-text01">
                 Easy, Intuitive Automatic Relay Loadboard
                 <span
                   dangerouslySetInnerHTML={{
@@ -129,7 +135,7 @@ const Home = (props) => {
                   }}
                 />
               </h1>
-              <span className="home-text05 content">
+              <span className="home-text02 content">
                 Refresher Instantly Updates to Give YOU the Best Advantage in
                 the Industry
               </span>
@@ -145,8 +151,8 @@ const Home = (props) => {
         </div>
         <div className="home-section-one section-container">
           <div className="home-max-width2 max-content-container">
-            <h1 className="home-text06">FULLY INDEPENDENT FEAUTURE</h1>
-            <h1 className="home-text07">
+            <h1 className="home-text03">FULLY INDEPENDENT FEAUTURE</h1>
+            <h1 className="home-text04">
               Jump Ahead of Other Truckers to Instantly Find and Book
               Amazon&apos;s BEST Loads - Soar Income with the Most Profitable
               Routes
@@ -179,11 +185,11 @@ const Home = (props) => {
               />
             </div>
             <div className="home-content-container1">
-              <h1 className="home-text08">
+              <h1 className="home-text05">
                 Its built-in randomizer feature adjusts Flash Relay refresh rate
                 to mirror a human dispatcher.
               </h1>
-              <span className="home-text09">
+              <span className="home-text06">
                 Features
                 <span
                   dangerouslySetInnerHTML={{
@@ -191,7 +197,7 @@ const Home = (props) => {
                   }}
                 />
               </span>
-              <span className="home-text10">
+              <span className="home-text07">
                 <span> New Booked Load Alarm &amp; Highlighted</span>
                 <br></br>
                 <span>
@@ -253,14 +259,14 @@ const Home = (props) => {
         <div id="tutorials" className="section-container">
           <div className="home-max-width4 max-content-container">
             <div className="home-heading-container">
-              <h1 className="home-text27">Tutorials</h1>
+              <h1 className="home-text24">Tutorials</h1>
             </div>
             <iframe
               src="https://www.youtube.com/embed/LNC9cv-LYpA?controls=0"
               className="home-iframe"
             ></iframe>
             <div className="home-features">
-              <h1 className="home-text28">Robozon Feature Explanation</h1>
+              <h1 className="home-text25">Robozon Feature Explanation</h1>
               <div className="home-container3">
                 <FeatureCard3
                   title="New Booked Load Alarm &amp; Highlighted "
@@ -311,11 +317,11 @@ const Home = (props) => {
         <div id="downloads" className="home-section-six section-container">
           <div className="home-max-width5 max-content-container">
             <div className="home-content-container2">
-              <h1 className="home-text29">
+              <h1 className="home-text26">
                 <span>Download Now</span>
                 <br></br>
               </h1>
-              <span className="home-text32">
+              <span className="home-text29">
                 <span className="content-Light">
                   Go to App Store, install our
                   <span
