@@ -14,7 +14,7 @@ const Navbar = (props) => {
           <img
             alt={props.image_alt}
             src={props.image_src}
-            href="/"
+            loading="eager"
             className="navbar-image"
           />
         </Link>

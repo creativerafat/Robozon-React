@@ -16,7 +16,10 @@ const PrivacyPolicy = (props) => {
         <meta property="og:title" content="PrivacyPolicy - Robozon" />
         <meta property="og:description" content="Robozon" />
       </Helmet>
-      <Navbar></Navbar>
+      <Navbar
+        image_src="/playground_assets/robozon-logo-1500h.png"
+        image_src1="/playground_assets/robozon-logo-1500h.png"
+      ></Navbar>
       <div className="privacy-policy-banner">
         <h1 className="privacy-policy-text">Privacy Policy</h1>
         <span className="privacy-policy-text01">

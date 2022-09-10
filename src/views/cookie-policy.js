@@ -16,7 +16,10 @@ const CookiePolicy = (props) => {
         <meta property="og:title" content="Cookie-Policy - Robozon" />
         <meta property="og:description" content="Robozon" />
       </Helmet>
-      <Navbar></Navbar>
+      <Navbar
+        image_src="/playground_assets/robozon-logo-1500h.png"
+        image_src1="/playground_assets/robozon-logo-1500h.png"
+      ></Navbar>
       <div className="cookie-policy-banner">
         <h1 className="cookie-policy-text">Cookie Policy</h1>
         <span className="cookie-policy-text01">
