@@ -197,11 +197,11 @@ const Home = (props) => {
                   }}
                 />
               </span>
-              <span className="home-text07 list list-item">
+              <span className="home-text07 list-item">
                 <span>New Booked Load Alarm &amp; Highlighted</span>
                 <br></br>
               </span>
-              <span className="home-text10 list list-item">
+              <span className="home-text10 list-item">
                 Missed Load Alarm
                 <span
                   dangerouslySetInnerHTML={{
@@ -209,10 +209,10 @@ const Home = (props) => {
                   }}
                 />
               </span>
-              <span className="home-text11 list list-item">
+              <span className="home-text11 list-item">
                 3 Type Search Mode (Search Only, Price Change Alert, Auto Book)
               </span>
-              <span className="home-text12 list list-item">
+              <span className="home-text12 list-item">
                 AI Refresher &amp; Randomizer
                 <span
                   dangerouslySetInnerHTML={{
@@ -220,10 +220,10 @@ const Home = (props) => {
                   }}
                 />
               </span>
-              <span className="home-text13 list list-item">
+              <span className="home-text13 list-item">
                 Multi-Load AutoBook into Single Tab
               </span>
-              <span className="home-text14 list list-item">
+              <span className="home-text14 list-item">
                 Fully Automated (Not depends of Amazon filter)
                 <span
                   dangerouslySetInnerHTML={{
@@ -231,7 +231,7 @@ const Home = (props) => {
                   }}
                 />
               </span>
-              <span className="home-text15 list list-item">
+              <span className="home-text15 list-item">
                 Multi Customizable filters
                 <span
                   dangerouslySetInnerHTML={{
@@ -239,7 +239,7 @@ const Home = (props) => {
                   }}
                 />
               </span>
-              <span className="home-text16 list list-item">
+              <span className="home-text16 list-item">
                 Auto Stop &amp; Start When detect too many request
                 <span
                   dangerouslySetInnerHTML={{
