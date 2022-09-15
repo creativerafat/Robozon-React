@@ -197,61 +197,55 @@ const Home = (props) => {
                   }}
                 />
               </span>
-              <span className="home-text07">
-                <span> New Booked Load Alarm &amp; Highlighted</span>
+              <span className="home-text07 list list-item">
+                <span>New Booked Load Alarm &amp; Highlighted</span>
                 <br></br>
-                <span>
-                   Missed Load Alarm
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <br></br>
-                <span>
-                   3 Type Search Mode (Search Only, Price Change Alert, Auto
-                  Book)
-                </span>
-                <br></br>
-                <span>
-                   AI Refresher &amp; Randomizer
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <br></br>
-                <span> Multi-Load AutoBook into Single Tab</span>
-                <br></br>
-                <span>
-                   Fully Automated (Not depends of Amazon filter)
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <br></br>
-                <span>
-                   Multi Customizable filters
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <br></br>
-                <span>
-                   Auto Stop &amp; Start When detect too many request
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <br></br>
+              </span>
+              <span className="home-text10 list list-item">
+                Missed Load Alarm
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span className="home-text11 list list-item">
+                3 Type Search Mode (Search Only, Price Change Alert, Auto Book)
+              </span>
+              <span className="home-text12 list list-item">
+                AI Refresher &amp; Randomizer
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span className="home-text13 list list-item">
+                Multi-Load AutoBook into Single Tab
+              </span>
+              <span className="home-text14 list list-item">
+                Fully Automated (Not depends of Amazon filter)
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span className="home-text15 list list-item">
+                Multi Customizable filters
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span className="home-text16 list list-item">
+                Auto Stop &amp; Start When detect too many request
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
               </span>
             </div>
           </div>
@@ -259,14 +253,14 @@ const Home = (props) => {
         <div id="tutorials" className="section-container">
           <div className="home-max-width4 max-content-container">
             <div className="home-heading-container">
-              <h1 className="home-text24">Tutorials</h1>
+              <h1 className="home-text17">Tutorials</h1>
             </div>
             <iframe
               src="https://www.youtube.com/embed/LNC9cv-LYpA?controls=0"
               className="home-iframe"
             ></iframe>
             <div className="home-features">
-              <h1 className="home-text25">Robozon Feature Explanation</h1>
+              <h1 className="home-text18">Robozon Feature Explanation</h1>
               <div className="home-container3">
                 <FeatureCard3
                   title="New Booked Load Alarm &amp; Highlighted "
@@ -317,11 +311,11 @@ const Home = (props) => {
         <div id="downloads" className="home-section-six section-container">
           <div className="home-max-width5 max-content-container">
             <div className="home-content-container2">
-              <h1 className="home-text26">
+              <h1 className="home-text19">
                 <span>Download Now</span>
                 <br></br>
               </h1>
-              <span className="home-text29">
+              <span className="home-text22">
                 <span className="content-Light">
                   Go to App Store, install our
                   <span
